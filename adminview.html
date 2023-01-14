@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* .btn-group button {   */
+        .btn-group-vertical button { 
+      background-color: #0b0e0d; /* Black background */
+      border: 1px solid rgb(239, 240, 239); /*  border */
+      color: white; /* White text */
+      padding: 20px 24px 24px 30px; /* Some padding top right bottom left */
+      cursor: pointer; /* Pointer/hand icon */
+      width: 50%; /* Set a width if needed */
+      display: block; /* Make the buttons appear below each other */
+      font-weight: bold;
+      font-size: 14px;
+      text-transform: uppercase;
+      margin-bottom: 50px;
+     /*  margin: auto */
+    }
+    
+    .btn-group button:not(:last-child) {   
+      border-bottom: none; /* Prevent double borders */
+    }
+
+    
+    /* Add a background color on hover */
+    /* .btn-group button:hover { */
+    .btn-group-vertical button:hover {    
+      background-color: #ffffff; 
+      color: #0b6d11;
+    }
+</style>
+</head>
+<body>
+
+<div  >
+        <div >
+            <div class="btn-group-vertical"> 
+                <br><br><br><br><br><br><br><center> <button type="button" id = "stbButton " ><a href="company.html">Insert Company Data<a></button><center>
+                                    <button type="button" id = "cdbButton"  ><a href="placed.html">Insert Placed Candidates Details</a></button>
+             </div> 
+         </div>
+      </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.button {
+  position: absolute;
+  top:50%;
+  background-color:black;
+  color: white;
+  border:none;
+}
+
+body {
+	text-align:center;
+	font-family: "Helvetica", Sans-Serif;
+	background-image: url("https://www.sfscollege.in/images/pc4.jpg");
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
